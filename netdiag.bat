@@ -3,8 +3,8 @@ rem //v1.1                    netdiag.bat                  20-04-2009
 rem |--------------------------------------------------------------------------
 rem | Basic network dignostic utility.
 rem | This batch file will check basic network configurations, connectivity
-rem | and file versions relating to the default configurations of the F+P
-rem | network.
+rem | and file versions relating to the default configurations of the My
+rem | Company network.
 rem |--------------------------------------------------------------------------
 :vars
  
@@ -13,7 +13,7 @@ set winver = "ver"
 :begin
 echo ---------------------------------------------------------------------------
 echo This diagnostic file will check your general network connectivity prior to
-echo connecting to any of the Foster + Partners VPN services.
+echo connecting to any of the My Company VPN services.
 echo ---------------------------------------------------------------------------
 echo test IP one: %1
 echo test IP two: %2
@@ -65,7 +65,7 @@ goto exit
 echo Diagnostic completed.
 echo ---------------------------------------------------------------------------
 echo Please refer to the output file c:\net_outp.txt for analysis or email the
-echo output file to tech support.
+echo output file to My Company tech support.
 echo ---------------------------------------------------------------------------
 pause
 goto :eof

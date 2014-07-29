@@ -3,7 +3,7 @@ rem //v1.1                    vpndiag.bat                 20-04-2009
 rem |--------------------------------------------------------------------------
 rem | Basic VPN dignostic utility.
 rem | This batch file will check basic network configurations, connectivity
-rem | and file versions relating to the default configurations of the F+P
+rem | and file versions relating to the default configurations of the My Company
 rem | network while connected a VPN.
 rem | Command line options:
 rem |  vpndiag.bat <ip1> <ip2>
